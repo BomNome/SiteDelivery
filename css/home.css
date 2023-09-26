@@ -1,0 +1,105 @@
+
+/*HEADER*/
+/*LEFT CONTENT*/
+#header{
+    width: 100%;
+    height: 80px;
+    background: orange;
+}
+.content-holder-left{
+    width: 27%;
+    height: 100%;
+    background: linear-gradient(90deg, rgb(255, 204, 110),rgba(255, 166, 0, 0));
+}
+.content-holder-right{
+    width: 27%;
+    height: 100%;
+    background: linear-gradient(90deg, rgb(255, 204, 110),rgba(255, 166, 0, 0));
+    float: right;
+}
+.image-header{
+    width: 100px;
+    height: 75px;
+    float: left;
+}
+.logo-text{
+    padding-top: 12px;
+}
+/*HEADER*/
+/*RIGHT CONTENT*/
+
+/*MAIN*/
+#main{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 238, 208);
+}
+.image-main{
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin: 50px;
+    margin-top: 100px;
+}
+.text-main-container h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+}
+.text-main-container h2{
+    text-align: center;
+    padding-top: 20px;
+}
+.text-main-container p{
+    text-align: center;
+    font-size: 26px;
+}
+.icon-image{
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    border-radius: 5%;
+}
+.android-icon{
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    background-size: cover;
+    background-image: url(../img/android.png);
+}
+.ios-icon{
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    background-size: cover;
+    background-image: url(../img/ios.jpg);
+}
+.order-link{
+    background: orange;
+    padding: 20px;
+    margin-top: 20px;
+    width: 80px;
+    border-radius: 10%;
+    font-size: 20px;
+}
+.order-link a{
+    color: black
+}
+.install-app h2{
+    font-size: 40px;
+}
+.side-content{
+    display: flex;
+    justify-content: center;
+}
+
+/*FOOTER*/
+#footer{
+    background: rgb(255, 238, 208);
+    padding-top: 40px;
+}
+#footer h2{
+    text-align: center;
+}
